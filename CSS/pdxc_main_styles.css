@@ -1,0 +1,137 @@
+/*
+Theme Name: PDXChambers Sandbox 2015
+Theme URI: http://www.pdxchambers.com/sandbox_theme
+Author: pdxchambers
+Author URI: http://www.pdxchambers.com
+Description: PDXChambers Sandbox is a generic theme based on a Bootstrap layout. It can be used straight out of the box or customized to fit your needs.
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags:
+Text Domain: pdxc_sandbox_2015
+
+This theme, like WordPress, is licensed under the GPL, copyright (c) 2015, Julien Chambers, All rights reserved.
+*/
+/*
+BEGIN CUSTOM STYLES
+*/
+/* line 29, ../SCSS/pdxc_main_styles.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 34, ../SCSS/pdxc_main_styles.scss */
+.pagination {
+  width: 100%;
+  font-weight: bold;
+}
+
+/* line 39, ../SCSS/pdxc_main_styles.scss */
+.blog-pagination {
+  text-align: center;
+}
+
+/* line 43, ../SCSS/pdxc_main_styles.scss */
+p.prev-link {
+  text-align: left;
+}
+
+/* line 47, ../SCSS/pdxc_main_styles.scss */
+p.next-link {
+  text-align: right;
+}
+
+/* line 51, ../SCSS/pdxc_main_styles.scss */
+#post-content {
+  padding: 1em;
+}
+
+/* line 55, ../SCSS/pdxc_main_styles.scss */
+#sidebar {
+  padding: 1em;
+}
+
+/* line 59, ../SCSS/pdxc_main_styles.scss */
+.searchform {
+  padding-top: 1.5em;
+}
+
+@media (min-width: 992px) {
+  /* line 64, ../SCSS/pdxc_main_styles.scss */
+  .front-page-grid {
+    min-height: 275px;
+  }
+}
+@media (max-width: 992px) {
+  /* line 70, ../SCSS/pdxc_main_styles.scss */
+  header {
+    text-align: center;
+  }
+
+  /* line 71, ../SCSS/pdxc_main_styles.scss */
+  #sidebar {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 75, ../SCSS/pdxc_main_styles.scss */
+  .children {
+    padding: 0;
+    list-style-type: none;
+  }
+}
+/*
+  Custom Bootstrap Navbar.
+*/
+/* line 85, ../SCSS/pdxc_main_styles.scss */
+.navbar {
+  border-radius: 0;
+}
+
+/* line 89, ../SCSS/pdxc_main_styles.scss */
+.navbar-pdxc {
+  background-color: #eeeeee;
+  border-color: #337ab7;
+}
+
+/* line 96, ../SCSS/pdxc_main_styles.scss */
+.navbar-pdxc .navbar-nav > li > a,
+.navbar-pdxc .navbar-nav > li > a:hover,
+.navbar-pdxc .navbar-nav > li > a:focus {
+  color: #1a3975;
+}
+
+/* line 102, ../SCSS/pdxc_main_styles.scss */
+.navbar-pdxc .navbar-nav > .active > a,
+.navbar-pdxc .navbar-nav > .active > a:hover,
+.navbar-pdxc .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #777777;
+}
+
+/* line 107, ../SCSS/pdxc_main_styles.scss */
+.navbar-pdxc .navbar-text {
+  color: white;
+}
+
+/* line 111, ../SCSS/pdxc_main_styles.scss */
+.navbar-pdxc .navbar-toggle {
+  border-color: #337ab7;
+}
+
+/* line 116, ../SCSS/pdxc_main_styles.scss */
+.navbar-pdxc .navbar-toggle:hover,
+.navbar-pdxc .navbar-toggle:focus {
+  background-color: #777777;
+}
+
+/* line 120, ../SCSS/pdxc_main_styles.scss */
+.navbar-pdxc .navbar-toggle .icon-bar {
+  background-color: #eeeeee;
+}
+
+/* line 124, ../SCSS/pdxc_main_styles.scss */
+.navbar-pdxc .collapsed {
+  background-color: #777777;
+}

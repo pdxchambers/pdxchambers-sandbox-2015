@@ -1,0 +1,162 @@
+/* SASS Variables
+---------------------------------------------------------------*/
+/* =WordPress Core
+-------------------------------------------------------------- */
+/* line 9, ../SCSS/pdxc_wp_generated_styles.scss */
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 14, ../SCSS/pdxc_wp_generated_styles.scss */
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+/* line 19, ../SCSS/pdxc_wp_generated_styles.scss */
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+/* line 24, ../SCSS/pdxc_wp_generated_styles.scss */
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+/* line 29, ../SCSS/pdxc_wp_generated_styles.scss */
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+/* line 34, ../SCSS/pdxc_wp_generated_styles.scss */
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 38, ../SCSS/pdxc_wp_generated_styles.scss */
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+/* line 43, ../SCSS/pdxc_wp_generated_styles.scss */
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 49, ../SCSS/pdxc_wp_generated_styles.scss */
+.wp-caption, .gallery-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%;
+  /* Image does not overflow the content area */
+  padding: 5px 3px 10px;
+  text-align: center;
+}
+
+/* line 57, ../SCSS/pdxc_wp_generated_styles.scss */
+.wp-caption.alignnone, .gallery-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 61, ../SCSS/pdxc_wp_generated_styles.scss */
+.wp-caption.alignleft, .gallery-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 65, ../SCSS/pdxc_wp_generated_styles.scss */
+.wp-caption.alignright, .gallery-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+
+/* line 69, ../SCSS/pdxc_wp_generated_styles.scss */
+.wp-caption img, .gallery-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
+}
+
+/* line 78, ../SCSS/pdxc_wp_generated_styles.scss */
+.wp-caption p.wp-caption-text, .gallery-caption p.wp-caption-text {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+/* line 86, ../SCSS/pdxc_wp_generated_styles.scss */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+/* line 94, ../SCSS/pdxc_wp_generated_styles.scss */
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+/* line 114, ../SCSS/pdxc_wp_generated_styles.scss */
+.wp-post-image {
+  margin: 1em;
+  float: left;
+}
+
+/* line 119, ../SCSS/pdxc_wp_generated_styles.scss */
+.sticky {
+  padding: 1em;
+  background-color: #eeeeee;
+  border: thin solid #aab5bf;
+}
+
+/* line 125, ../SCSS/pdxc_wp_generated_styles.scss */
+.comment {
+  padding: 1em;
+  list-style-type: none;
+}
+
+/* line 130, ../SCSS/pdxc_wp_generated_styles.scss */
+.even {
+  background-color: #eeeeee;
+}
+
+/* line 134, ../SCSS/pdxc_wp_generated_styles.scss */
+.children .odd {
+  background-color: white;
+}
+
+/* line 138, ../SCSS/pdxc_wp_generated_styles.scss */
+.bypostauthor {
+  border-radius: 1em;
+  border: thin solid #aab5bf;
+  box-shadow: 3px 3px 3px #e0e0e0;
+}

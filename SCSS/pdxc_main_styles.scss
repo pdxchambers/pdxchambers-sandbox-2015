@@ -1,0 +1,126 @@
+/*
+Theme Name: PDXChambers Sandbox 2015
+Theme URI: http://www.pdxchambers.com/sandbox_theme
+Author: pdxchambers
+Author URI: http://www.pdxchambers.com
+Description: PDXChambers Sandbox is a generic theme based on a Bootstrap layout. It can be used straight out of the box or customized to fit your needs.
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags:
+Text Domain: pdxc_sandbox_2015
+
+This theme, like WordPress, is licensed under the GPL, copyright (c) 2015, Julien Chambers, All rights reserved.
+*/
+
+//SASS Variables
+$nav_menu_link_color: #1a3975;
+$nav-sub-menu: #fff;
+$nav_menu_background: #eeeeee;
+$nav_menu_active_link: #fff;
+$nav_menu_active_link_background: #777;
+$nav_menu_text_color: #fff;
+$border_color: #337ab7;
+
+/*
+BEGIN CUSTOM STYLES
+*/
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pagination {
+  width: 100%;
+  font-weight: bold;
+}
+
+.blog-pagination{
+  text-align: center;
+}
+
+p.prev-link{
+    text-align: left;
+}
+
+p.next-link{
+    text-align: right;
+}
+
+ #post-content {
+   padding: 1em;
+ }
+
+ #sidebar {
+   padding: 1em;
+ }
+
+.searchform {
+  padding-top: 1.5em;
+}
+
+@media (min-width: 992px) {
+  .front-page-grid {
+    min-height: 275px;
+  }
+}
+
+@media (max-width: 992px) {
+  header {text-align: center;}
+  #sidebar {display: none;}
+}
+
+@media screen and (max-width: 500px) {
+  .children {
+    padding: 0;
+    list-style-type: none;
+  }
+}
+
+/*
+  Custom Bootstrap Navbar.
+*/
+
+.navbar {
+  border-radius: 0;
+}
+
+.navbar-pdxc {
+  background-color: $nav_menu_background;
+  border-color: $border_color;
+}
+
+.navbar-pdxc .navbar-nav > li > a,
+.navbar-pdxc .navbar-nav > li > a:hover,
+.navbar-pdxc .navbar-nav > li > a:focus {
+    color: $nav_menu_link_color;
+}
+
+.navbar-pdxc .navbar-nav > .active > a,
+.navbar-pdxc .navbar-nav > .active > a:hover,
+.navbar-pdxc .navbar-nav > .active > a:focus {
+    color: $nav_menu_active_link;
+    background-color: $nav_menu_active_link_background;
+}
+
+.navbar-pdxc .navbar-text {
+    color: $nav_menu_text_color;
+}
+
+.navbar-pdxc .navbar-toggle {
+    border-color: $border_color;
+}
+
+.navbar-pdxc .navbar-toggle:hover,
+.navbar-pdxc .navbar-toggle:focus {
+    background-color: $nav_menu_active_link_background;
+}
+
+.navbar-pdxc .navbar-toggle .icon-bar {
+    background-color: $nav_menu_background;
+}
+
+.navbar-pdxc .collapsed {
+    background-color: $nav_menu_active_link_background;
+}
