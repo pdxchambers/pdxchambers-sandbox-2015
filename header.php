@@ -22,8 +22,10 @@
 	</head>
 	<body id="bodyTag" <?php body_class(); ?>>
 		<div class="container">
-			<nav class="navbar navbar-pdxc" role="navigation">
+			<section class="row">
+			<nav class="navbar navbar-pdxc  col-md-12" role="navigation">
 				<div class="container-fluid">
+
 					<div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -48,9 +50,12 @@
 				</div>
 				</div>
 				</nav>
+			</section>
 			<header class="row page-header">
 				<section class="row main-feature">
+					<div class="col-md-12">
 					<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+				</div>
 				</section>
 				<section class="row">
 					<div class="col-md-8">

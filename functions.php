@@ -22,7 +22,7 @@ function pdxchambers_sandbox_2015_enqueue_scripts_and_styles () {
   wp_enqueue_style( 'generated_css', get_template_directory_uri() . '/css/pdxc_wp_generated_styles.css', false, null, 'all');
 	wp_enqueue_style( 'default_css', get_template_directory_uri() . '/style.css', false, null, 'all');
 	wp_enqueue_script( 'modernizr_js', get_template_directory_uri() . '/scripts/modernizr.js', array('jquery'), null, true );
-	wp_enqueue_script( 'bootstrap_min', get_template_directory_uri() . '/scripts/bootstrap.min.js', array('jquery'), null, true );
+	wp_enqueue_script( 'bootstrap_min', get_template_directory_uri() . '/scripts/bootstrap.js', array('jquery'), null, true );
 }
 
 add_action ( 'wp_enqueue_scripts', 'pdxchambers_sandbox_2015_enqueue_scripts_and_styles' );
@@ -115,7 +115,7 @@ function pdxchambers_sandbox_2015_create_widget_area() {
 		'id' => 'primary-sidebar',
 		'before_widget' => '<div class="widget">',
 		'after_widget' => '</div>',
-		'before_title' => '<h3 class="widget-title text-center">',
+		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>'
 	) );
 }

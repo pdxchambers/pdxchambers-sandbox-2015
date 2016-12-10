@@ -1,6 +1,6 @@
 /*
 Theme Name: PDXChambers Sandbox 2015
-Theme URI: http://www.pdxchambers.com/sandbox_theme
+Theme URI: http://www.pdxchambers.com/the-pdxchambers-sandbox-2015-theme/
 Author: pdxchambers
 Author URI: http://www.pdxchambers.com
 Description: PDXChambers Sandbox is a generic theme based on a Bootstrap layout. It can be used straight out of the box or customized to fit your needs.
@@ -46,6 +46,10 @@ p.prev-link{
 
 p.next-link{
     text-align: right;
+}
+
+.main-feature img {
+    max-width: 100%;
 }
 
  #post-content {
